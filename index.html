@@ -41,7 +41,9 @@ button,input{font:inherit}button{cursor:pointer}button:focus-visible,input:focus
 @media(max-width:640px){.site-shell{width:calc(100% - 24px)}.topbar{height:64px}.top-meta{gap:9px;font-size:11px}.top-meta .desktop-meta{display:none}.hero{padding:33px 0 23px;grid-template-columns:1fr;gap:15px}.hero h1{font-size:47px}.hero-copy{justify-self:start;padding-left:13px;font-size:11px;max-width:500px}.main-layout{gap:14px;padding-bottom:32px}.cabinet-panel{padding:16px 12px 13px}.panel-heading h2{font-size:21px}.cabinet-hint{font-size:11px;line-height:1.6}.record-grid{height:460px}.album-card{width:min(78%,220px)}.record-disc{width:88%}.album-title{font-size:13px}.album-meta{font-size:11px}.album-artist{font-size:11px}.station-panel{padding:12px}.now-playing{min-height:65px;margin:12px 1px}.now-cover{width:52px;height:52px}.now-copy h2{font-size:18px}.control-note{font-size:11px}.audio-box{min-height:125px}.tracklist-list{max-height:220px}.album-tracklist{padding:11px 9px 8px}.footer{flex-direction:column;gap:7px}.album-card:hover .record-disc,.album-card:focus-visible .record-disc{transform:translate(-50%,-50%) translateX(30px) rotate(13deg) scale(1.02)}.flying-disc{display:none}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.is-playing .deck-vinyl{animation-duration:1.8s!important;animation-iteration-count:infinite!important}}
 
-.audio-caption a[aria-disabled="true"]{pointer-events:none;opacity:.42;cursor:not-allowed}</style>
+.audio-caption a[aria-disabled="true"]{pointer-events:none;opacity:.42;cursor:not-allowed}
+.queue-panel{display:flex;flex-direction:column}.queue-panel .album-tracklist:not([hidden]){display:flex;flex:1;flex-direction:column;min-height:0}.queue-panel .tracklist-list{flex:1;min-height:0;max-height:none}
+</style>
 </head>
 <body>
 <div class="site-shell">
